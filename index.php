@@ -7,7 +7,7 @@
 	</head>
 	<header><h1>Online-Shop</h1><header>
 <body>
-	<form>
+	<form action="login.php" type="POST">
 		<div class="gl">
 			<label>Anmelden</label>
 		</div>
@@ -16,9 +16,10 @@
 			<input type="text" name="name" id="name">
 			<label for="pw">Passwort:</label>
 			<input type="password" name="pw" id="pw">
+			<input type="submit" value="Login" name="Login">
 		</div>
 		<div class="aa">
-		
+			<hr>
 		</div>
 		<br>
 	</form>
