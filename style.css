@@ -1,6 +1,7 @@
 body {
-background-image:url("texturen/titelseite.png");
-background-repeat:repeat;
+background-image: url("test.png");
+background-repeat: repeat;
+
 }
 
 div.gl {
@@ -22,5 +23,4 @@ hr {
 header {
 	margin-top:-20px;
 	color:#1E90FF;
-	background-color:;
 }
