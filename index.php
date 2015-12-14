@@ -9,17 +9,18 @@
 <body>
 	<form>
 		<div class="gl">
-		<label>Anmelden</label>
+			<label>Anmelden</label>
 		</div>
 		<div class="dl">
-		<label for="name">Name:</label>
-		<input type="text" name="name" id="name">
-		<label for="pw">Passwort:</label>
-		<input type="password" name="pw" id="pw">
+			<label for="name">Name:</label>
+			<input type="text" name="name" id="name">
+			<label for="pw">Passwort:</label>
+			<input type="password" name="pw" id="pw">
+		</div>
+		<div class="aa">
+		
 		</div>
 		<br>
-	</form>
-	<form>
 	</form>
 <?php
 
