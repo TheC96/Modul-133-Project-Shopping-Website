@@ -2,18 +2,6 @@
 +Class Diagram
 +GitHub 
 -Program
--Doku
-  -Aufgabenstellung
-  -Arbeitsjournal
-  -Versionierung
-  -Zeitplan
-  -Konzeptphase
-  -Realisierungsphase
-  -Evaluation
-  -Risiko
-  -Testplan
-  -Fazit
-  -Bildverzeichnis
-  -Tabellenverzeichnis
-  -Quellenverzeichnis
-  -Formatierung
+Arbeitsjournal
+Aufgabenstellung
+
