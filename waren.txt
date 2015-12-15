@@ -1,6 +1,6 @@
-coca:2.30
-coca zero:3.40
-nestea lemon:5.00
-valser classic:2.30
-valser natural:2.00
-valser silence:1.00
+Coca Cola: 2.30.-
+Coca Cola Zero: 3.40.-
+Nestea Lemon: 5.00.-
+Valser Classic: 2.30.-
+Valser Natural: 2.00.-
+Valser Silence: 1.00.-
