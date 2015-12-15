@@ -16,6 +16,7 @@
 
 		<?php
 			include("auth/loginkasten.php");
+			include("Warenkorb.php");
 		?>
 		<div id="seite">
 				<div id="inhalt">
