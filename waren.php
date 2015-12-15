@@ -16,15 +16,15 @@
 					$pfad = $file[$i];
 					echo "<div class='img'>
 						<img src='$pfad' alt='Trolltunga Norway' width='300' height='200'>
-						<form action='index.php' method='post'>
+						<form action='index.php' method='post' name='". $pfad ."'>
 							<div class='desc'>
-							<label  for='name'  value='$u[0]'>$u[0]</label><br>
-							<input type='hidden' id='name' name='name' value='$u[0]'>
-							<label  for='preis'  value='$u[1]'>$u[1]</label><br>
-							<input type='hidden' id='preis' name='preis' value='$u[1]'>
-							<label for='anzahl'>Anzahl</label>
-							<input type='number' name='anzahl' min='1' max='5' value='1' required>
-							<input type='submit' value='In den Warenkorb'>
+								<label  for='name'  value='$u[0]'>$u[0]</label><br>
+								<input type='hidden' id='name' name='name' value='$u[0]'>
+								<label  for='preis'  value='$u[1]'>$u[1]</label><br>
+								<input type='hidden' id='preis' name='preis' value='$u[1]'>
+								<label for='anzahl'>Anzahl</label>
+								<input type='number' name='anzahl' min='1' max='5' value='1' required>
+								<input type='submit' value='In den Warenkorb'>
 							</div>
 						</form>
 					</div>";
