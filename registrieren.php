@@ -3,7 +3,7 @@
 	<head></head>
 	<header><h1>Online-Shop</h1><header>
 <body>
-  <form action="register.php" method="post">
+  <form action="regist.php" method="post">
   				<label for="user">Username</label>
   				<input type="text" name="user" id="user" required>
   				<br>
