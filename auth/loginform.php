@@ -1,12 +1,12 @@
 <!doctype html>
-<html>
+<hmtl>
 	<head>
-		<title>Loginform</title>
-		<meta charset="UTF-8">	
-		<link rel="stylesheet" href="../example/style.css">
-		<link rel="stylesheet" href="../example/mobile.css" media="(max-width:200px)">
+	<title>Online-Shop</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
 	</head>
-	<body>
+	<header><h1>Online-Shop</h1><header>
+<body>
 		<header>
 			<h1>Login</h1>		
 		</header>
@@ -22,5 +22,10 @@
 				<input type="submit" value="login">
 			</form>
 		</div>
-	</body>
+<?php
+
+
+?>
+</body>
+<footer></footer>
 </html>

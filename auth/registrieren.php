@@ -1,6 +1,10 @@
 <!doctype html>
 <hmtl>
-	<head></head>
+	<head>
+	<title>Online-Shop</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	</head>
 	<header><h1>Online-Shop</h1><header>
 <body>
   <form action="register.php" method="post">

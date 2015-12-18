@@ -23,7 +23,7 @@
 	if(isset($_GET['logout'])) {
 		session_unset();
 		echo "Sie wurden abgemeldet!<br>";
-		header('Refresh: 10; URL=loginform.php');			
+		header('Refresh: 3; URL=../index.php');			
 	}
 	
 	if(isset($_SESSION['user'])) {	
@@ -32,6 +32,6 @@
 	}
 	if(isset($message)){
 		echo $message;		
-		header('Refresh: 3; URL=loginform.php');		
+		header('Refresh: 3; URL=../index.php');		
 	}
 ?>

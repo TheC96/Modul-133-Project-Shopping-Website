@@ -7,16 +7,16 @@
 	</head>
 	<header><h1>Online-Shop</h1><header>
 <body>
-	<form action="login.php" type="POST">
+	<form action="auth/login.php" method="post">
 		<div class="gl">
 			<label>Anmelden</label>
 		</div>
 		<div class="dl">
-			<label for="name">Name:</label>
-			<input type="text" name="name" id="name">
-			<label for="pw">Passwort:</label>
-			<input type="password" name="pw" id="pw">
-			<input type="submit" value="Login" name="Login">
+				<label for="user">Username</label>
+				<input type="text" name="user" id="user" required>
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password" required>
+				<input type="submit" value="login">
 		</div>
 		<div class="aa">
 			<hr>
