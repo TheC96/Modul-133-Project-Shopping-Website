@@ -13,7 +13,7 @@
 	if(isset($_SESSION['user'])) {	
 		echo '<div class="gl">
 			<label>';
-		echo "Hallo " . $_SESSION['user'] . '<br>';
+		echo "Hallo, " . $_SESSION['user'] . '<br>';
 		echo "<a href='?logout'>Logout</a><br>";
 		echo "</label></div>";
 	}else{
@@ -30,15 +30,22 @@
 				<input type="password" name="password" id="password" required>
 				<input type="submit" value="login">
 		</div>
+	</form>
+	<form action="auth/registrieren.php" >	
+		<div class="dl">
+  			<input type="submit" value="Registrieren">
+		</div>
+	</form>
+	<form>
+
 		<div class="aa">
 			<hr>
 		</div>
 		<br>
 	</form>';
 	
-}
+	}
 	if(isset($_GET['logout'])) {
-		
 		session_unset();
 		header('Refresh: 1; URL=index.php');			
 	}
