@@ -23,12 +23,13 @@
 	if(isset($_GET['logout'])) {
 		session_unset();
 		echo "Sie wurden abgemeldet!<br>";
-		header('Refresh: 3; URL=../index.php');			
+		header('Refresh: 60; URL=../index.php');			
 	}
 	
 	if(isset($_SESSION['user'])) {	
-		echo "Hallo " . $_SESSION['user'] . '<br>';
-		echo "<a href='?logout'>Logout</a><br>";
+		header('Refresh: 3; URL=../index.php');
+		/*echo "Hallo " . $_SESSION['user'] . '<br>';
+		echo "<a href='?logout'>Logout</a><br>";*/
 	}
 	if(isset($message)){
 		echo $message;		
