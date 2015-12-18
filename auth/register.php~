@@ -11,5 +11,5 @@
 			header('Refresh: 3; URL=registerform.php');	
 		}
 		
-	}
+	}else  {echo "fehler";}
 ?>
