@@ -21,6 +21,132 @@ div.el {
 	margin-left:90%;
 }
 
+/*----------------------Login Kasten------------------------------------*/
+div.login {
+	margin: 5px;
+    	border: 1px solid #ccc;
+    	float: right;
+    	width: 180px;
+	height: 50px;
+}
+/*----------------------Warenkorb Kasten------------------------------------*/
+div.warenkorb {
+	margin: 5px;
+    	border: 1px solid red;
+    	float: right;
+    	width: 180px;
+	height: 200px;
+}
+/*----------------------Waren Kasten------------------------------------*/
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/*----------------------Navigations Bar------------------------------------*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a.logout {
+    display: block;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+</st
+
+
+/*----------------------Seite------------------------------------*/
+#seite {
+    position: relative;
+    min-height: 100%;
+    width: 550px;
+    margin: 0 auto;
+    background-color: silver;
+}
+
+
+/*----------------------Inhalt------------------------------------*/
+#inhalt {
+    background-color: orange;
+    padding-bottom: 2em;
+    width: 80%;
+}
+ 
+
+/*----------------------Waren Galary------------------------------------*/
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}	
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/*----------------------Fussberiech------------------------------------*/
+#fussbereich {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
 hr {
 	size:2px:;
 	color:blue;
