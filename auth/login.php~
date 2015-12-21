@@ -10,7 +10,7 @@
 			if($_POST['user'] == trim($u[0])){
 				if($_POST['password'] == trim($u[1])) {
 					$_SESSION['user'] = $u[0];				
-					$message = 'Login erfolgreich';
+					$message = 'Login erfolgreich...';
 				}else{
 					$message = 'Passwort falsch';				
 				}				
