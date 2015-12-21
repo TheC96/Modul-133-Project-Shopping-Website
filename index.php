@@ -11,7 +11,6 @@
 			<hr>
 		</div>
 		<ul>
-			<li><a href="#home">Home</a></li>
   			<li><a href="#waren">Waren</a></li>
   			<li><a href="#warenkorb">Warenkorb</a></li>
 		
