@@ -18,8 +18,8 @@
 		echo implode('<br>', $_SESSION['waren'][$_SESSION['produkt']]);
 	
 	}else{
-		echo "Produkt: " . $_SESSION['produkt'] . '<br>';
-		echo "Anzahl: " . $_SESSION['anzahl']. '<br>';
+		echo "Produkt: " . (isset($_SESSION['produkt'])) . '<br>';
+		echo "Anzahl: " . (isset($_SESSION['anzahl'])). '<br>';
 	}
 ?>
 </div>

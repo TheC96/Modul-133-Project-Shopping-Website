@@ -11,8 +11,8 @@
 			<hr>
 		</div>
 		<ul>
-  			<li><a href="#waren">Waren</a></li>
-  			<li><a href="#warenkorb">Warenkorb</a></li>
+  			<li><a href="index.php">Waren</a></li>
+  			<li><a href="warenkorb.php">Warenkorb</a></li>
 		
 			
 		<?php
