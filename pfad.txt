@@ -1,0 +1,7 @@
+src/coca.jpg
+src/cocaz.jpg
+src/nesteal.jpg
+src/valserc.jpg
+src/valsern.jpg
+src/valsers.jpg
+

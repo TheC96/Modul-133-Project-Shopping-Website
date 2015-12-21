@@ -36,6 +36,7 @@ div.warenkorb {
     	float: right;
     	width: 180px;
 	height: 200px;
+	
 }
 /*----------------------Waren Kasten------------------------------------*/
 div.img {
@@ -43,6 +44,7 @@ div.img {
     border: 1px solid #ccc;
     float: left;
     width: 180px;
+    height: 300px;
 }
 
 div.img:hover {
@@ -50,8 +52,8 @@ div.img:hover {
 }
 
 div.img img {
-    width: 100%;
-    height: auto;
+    width: 180px;
+    height: 300px;
 }
 
 div.desc {
@@ -112,7 +114,7 @@ li a:hover:not(.active) {
 #inhalt {
    
     padding-bottom: 2em;
-    width: 80%;
+    width: 70%;
 }
  
 

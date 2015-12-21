@@ -1,5 +1,5 @@
 <?php
-	session_start();
+
 	if(isset($_POST['user'])){
 		session_unset();
 		if(!isset($_SESSION['users']) ){
