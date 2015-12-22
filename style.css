@@ -1,9 +1,10 @@
+/*----------------------Body------------------------------------*/
 body {
 background-image: url("test.png");
 background-repeat: repeat;
 
 }
-
+/*----------------------Div Classen------------------------------------*/
 div.gl {
 	margin-top:-50px;
 	margin-left:30%;
@@ -118,7 +119,7 @@ li a:hover:not(.active) {
 }
  
 
-/*----------------------Waren Galary------------------------------------*/
+/*----------------------Waren Galary------------------------------*/
 div.img {
     margin: 5px;
     border: 1px solid #ccc;
@@ -142,17 +143,18 @@ div.desc {
 
 /*----------------------Fussberiech------------------------------------*/
 #fussbereich {
-    position:absolute;
+    position:fixed;
     bottom: 0;
     width: 100%;
 }
 
 
-
+/*----------------------Linie------------------------------------*/
 hr {
 	size:2px:;
 	color:blue;
 }
+/*----------------------Titel------------------------------------*/
 header {
 	margin-top:-20px;
 	color:#1E90FF;
