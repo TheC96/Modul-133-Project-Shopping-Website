@@ -1,44 +1,21 @@
 <?php
-	/*if(isset($_POST['user'])){
-		if($_POST['password'] == $_POST['password2']){
-			$fp = fopen("users.txt", 'r');
-			fwrite($fp , $_POST['user'] . ':' . $_POST['password'] . "\n");
+
+	$username = $_POST['user'];
+	$password = $_POST['password'];
+	$password2 = $_POST['password2'];
+	
+	if (isset($username)){
+		if ($password == $password2){	
+			$fp = fopen("users.txt", "a"); 
+			fputs($fp,$username.":".$password."\n"); 
 			fclose($fp);
-			echo 'Erfolgreich gespeichert!';	
-			header('Refresh: 3; URL=loginform.php');	
+			echo 'Registrierung erfolgreich...';
+			header('Refresh: 3; URL=loginform.php');
 		}else {
-			echo 'Passworte nicht identisch';
-			header('Refresh: 3; URL=registerform.php');	
+			header('Refresh: 3; URL=registrieren.php');
+			echo "passwort ist nicht Identisch!...";		
 		}
-		
-	}*/
-
-	session_start();
-	if(isset($_POST['user'])){
-		$username = $_POST['user'];
 	}
-	if(isset($_POST['password'])){
-		$password = $_POST['password'];
-	}
-	if(isset($_POST['password2'])){
-		$passwordrepeat = $_POST['password2'];
-	}
-	if($password !== $passwordrepeat){
-	}
-	$accounts = file('users.txt');
-	foreach($accounts as $account){
-		$accdata = explode(':',$account);
-		$accuser = $accdata[0];
-		if($user == $accuser){
-			header("Location: loginform.php");
-			exit;
-		}
-
-	}
-	file_put_contents('users.txt',$username . ':' . $password . "\n",FILE_APPEND);
-	header("Location: loginform.php");
-	exit;
-
 
 
 
