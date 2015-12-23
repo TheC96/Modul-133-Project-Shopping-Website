@@ -11,6 +11,7 @@
 	$_SESSION['warenkorb'] = (isset($_SESSION['warenkorb']))? $_SESSION['warenkorb'] : array();
 	$_SESSION['warenkorb'][$_POST['name']] = (isset($_SESSION['warenkorb'][$_POST['name']]))?$_SESSION['warenkorb'][$_POST['name']]: array(); 
 		$_SESSION['warenkorb'][$_POST['name']][] = $_POST['name']. ": " .$_POST['anzahl']." stück". " für " .$Preis." CHF";
+		
 	}
 
 	
