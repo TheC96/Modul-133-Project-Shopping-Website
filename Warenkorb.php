@@ -22,7 +22,13 @@
 	//[$_SESSION['produkt']]
 	//
 	//
+	
 ?>
+	<div class="bestellung">
+		<form action="bestellung.php" method="post">
+			<input type="submit" value="Bestellung abschicken">
+		</form>
+	</div>
 </div>
 
 

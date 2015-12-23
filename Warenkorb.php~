@@ -17,12 +17,18 @@
 
 	foreach ($_SESSION['warenkorb'] as $key => $produkte){	
 //var_dump($key);	
-			echo ('<br>'.$produkte[]);
+			echo ('<br>'.$produkte[0]);
 	}
 	//[$_SESSION['produkt']]
 	//
 	//
+	
 ?>
+	<div>
+		<form action="bestellung.php" method="post">
+			<input type="submit" value="Bestellung abschicken">
+		</form>
+	</div>
 </div>
 
 

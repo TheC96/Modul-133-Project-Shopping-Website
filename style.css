@@ -22,6 +22,8 @@ div.el {
 	margin-left:90%;
 }
 
+
+
 /*----------------------Login Kasten------------------------------------*/
 div.login {
 	margin: 5px;
@@ -32,13 +34,25 @@ div.login {
 }
 /*----------------------Warenkorb Kasten------------------------------------*/
 div.warenkorb {
-	margin: 5px;
-    	border: 1px solid red;
-    	float: right;
+	position: absolute;
+    	top: 40%;
+    	right: 0;
     	width: 180px;
-	height: 200px;
+	height: auto;
+	border: 3px solid #73AD21;
 	
 }
+/*----------------------Bestellung------------------------------------*/
+div.bestellung {
+    position: absolute;
+    top: 110%;
+    right: 0;
+    width: 180px;
+    height: auto;
+    /*border: 3px solid #73AD21;*/
+	
+}
+
 /*----------------------Waren Kasten------------------------------------*/
 div.img {
     margin: 5px;
