@@ -1,11 +1,13 @@
 <?php
 		session_start();
+			//Wen man angemeldet ist
 			if(isset($_SESSION['user'])) {	
 				echo '<ul style="float:right;list-style-type:none;"><label><a class="logout">';
 				echo "Hallo, " . $_SESSION['user'] .'</a>';
 				echo "<a class='logout' href='?logout'>Logout</a>";
 				echo "</label></ul> </ul>";
 			}else{
+				//Login formular wen man nicht angemeldet ist
 				echo'</ul>
 					<div class="login">
 					<form action="auth/login.php" method="post">

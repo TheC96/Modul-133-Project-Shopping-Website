@@ -14,14 +14,17 @@
   			<li><a href="index.php">Waren</a></li>
   			<li><a href="warenkorb.php">Warenkorb</a></li>	
 		<?php
+			//Login kasten wirde geladen
 			include("auth/loginkasten.php");			
 		if(isset($_POST['anzahl'])) {
+			//Warenkorb wird geladen wenn weren hinzugefügt wurden
 			include("Warenkorb.php");			
 		}
 		?>
 		<div id="seite">
 			<div id="inhalt">
 				<?php
+					//Waren werden Dynamisch geladen
 					include("waren.php");			
 				?>
 			</div>

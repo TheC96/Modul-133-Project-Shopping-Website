@@ -1,4 +1,5 @@
 <?php
+	//Prüfte ob User existiert
 	session_start();
 	if(isset($_POST['user'])){
 		session_unset();
@@ -20,17 +21,19 @@
 			}	
 		}	
 	}
+	//Funtion wen man sich Abmeldet
 	if(isset($_GET['logout'])) {
 		session_unset();
 		echo "Sie wurden abgemeldet!<br>";
 		header('Refresh: 60; URL=../index.php');			
 	}
-	
+	//Funtion bei einer Erfolgreichen Anmelden
 	if(isset($_SESSION['user'])) {	
 		header('Refresh: 3; URL=../index.php');
 		/*echo "Hallo " . $_SESSION['user'] . '<br>';
 		echo "<a href='?logout'>Logout</a><br>";*/
 	}
+	//Nachricht wird Dargestellt
 	if(isset($message)){
 		echo $message;		
 		header('Refresh: 3; URL=../index.php');		

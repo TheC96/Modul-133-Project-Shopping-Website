@@ -5,6 +5,7 @@
 
 		$i = 0;
 		$file=file("pfad.txt");
+		//List waren aus der datei waren.txt  und den Pfad aus pfad.txt
 		foreach($_SESSION['waren'] as $user) {
 			$u = split(":", $user);
 			if(trim($u[0])){
@@ -14,6 +15,7 @@
 					echo $u[1];				
 					echo "<br>";*/
 					$pfad = $file[$i];
+					//Waren daten werden in das Formular abgefült
 					echo "<div class='img'>
 						<img src='$pfad' alt='Trolltunga Norway' width='300' height='200'>
 						<form action='index.php' method='post' name='". $pfad ."'>
@@ -31,11 +33,13 @@
 					$pfad = $file[++$i];
 
 				}else{
+					//Fehler meldung
 					echo "fehler";	
 					break;	
 				}				
 						
 			}else {
+				//Fehler meldung
 				echo "fehler";
 				break;				
 			}	

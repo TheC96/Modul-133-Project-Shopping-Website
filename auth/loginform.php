@@ -17,6 +17,7 @@
 		</ul>	
 		<div id="seite">
 			<div id="inhalt">
+			<!-- Formular zum login-->
 			<form action="login.php" method="post">
 				<label for="user">Username</label>
 				<input type="text" name="user" id="user" required>

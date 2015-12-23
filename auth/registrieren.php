@@ -17,7 +17,7 @@
 		</ul>	
 		<div id="seite">
 			<div id="inhalt">
-
+			<!-- Formular zum Registrieren-->
   			<form action="register.php" method="post">
   				<label for="user">Username</label>
 				<input type="text" name="user" id="user" required>
