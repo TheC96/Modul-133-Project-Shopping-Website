@@ -1,7 +1,0 @@
-+Sequence Diagram
-+Class Diagram
-+GitHub 
--Program
-Arbeitsjournal
-Aufgabenstellung
-
